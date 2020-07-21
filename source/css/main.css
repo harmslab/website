@@ -1,0 +1,43 @@
+@font-face {
+  font-family: Baskervville;
+  src: url('../fonts/Baskervville/Baskervville-Regular.ttf');
+}
+
+@font-face {
+  font-family: Baskervville;
+  src: url('../fonts/Baskervville/Baskervville-Italic.ttf');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url('../fonts/Raleway/Raleway-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url('../fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf');
+  font-style: italic;
+}
+
+
+
+
+body {
+
+  /* background image */
+  background: url('../img/background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+
+  font-family: Raleway;
+
+  line-height: 1;
+
+}
+
+html {
+      scroll-behavior: smooth;
+}
