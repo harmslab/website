@@ -51,8 +51,8 @@ Given the above, I commit to the following efforts:
 
 ### Lab Member Thoughts
 
-
-
+We are all committed to make this lab a welcoming place to people from all walks of life, national origins, backgrounds, religions, races, sexual orientations, and other categories. 
+- Luis, 2nd year PhD student at the Harms Lab
 
 
 ### Conflict Protocol
