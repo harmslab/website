@@ -27,7 +27,7 @@ These are the basic "rules for the road" that govern conduct and procedures in t
 
 ####Mike's Thoughts:
 
-Leadership positions in science and at the University of Oregon are dominated by white men.  Others have done an excellent job documenting [why this is](link) and [why this is a problem](link). This is not an easy problem, nor is it one that will be solved quickly.  Despite the stated intentions of most scientists, the system as a whole continues to favor white men, particularly in leadership positions. This is something that I am committed to change. As part of this:
+Leadership positions in science and at the University of Oregon are dominated by white men.  Others have done an excellent job documenting [why this is](link) and [why this is a problem](link). This is not an easy problem, nor is it one that will be solved quickly.  Despite the stated intentions of most scientists, the system as a whole continues to favor white men, particularly in leadership positions. This is something that I am committed to change. 
 
 + I recognize that I, as someone who is a member of this majority class, have had opportunities and privileges unavailable to others that have been crucial to my success as a scientist. 
 + I recognize that I, as a privileged individual and leader in the scientific community, have a responsibility to work toward correcting these inequities. 
@@ -35,10 +35,12 @@ Leadership positions in science and at the University of Oregon are dominated by
 
 Given the above, I commit to the following efforts:
 
++ [overall structure --> order from changes to continuing.... ]
 + In the lab
-  + I will continue my efforts to recruit excellent undergraduate and graduate students in my lab.  
+  + 
   + <u>I will encourage my students to participate in efforts to promote equity and inclusion in the sciences.</u>  This includes, but is not limited to, encouraging them to join UO organizations such as [UOWGS](https://blogs.uoregon.edu/uowgs/) and [CMIS](https://pages.uoregon.edu/cmis/index.html); supporting their participation in Departmental committees like [CBGReAT](https://blogs.uoregon.edu/cbgreat/) and the Diversity, Equity, and Inclusion Committee; funding travel to meetings and workshops devoted to improved equity and inclusion (e.g. [SACNAS](https://www.sacnas.org/what-we-do/conference/), [GRC Power Hour](https://www.grc.org/the-power-hour/)); and inviting students to participate in outreach activities such as [Skype a Scientist](https://www.skypeascientist.com/) and [SPICE](https://www.spicescience.org/).
-  + I will make continuing education about racial and other inequities a priority.  
+  + I will make continuing education about racial and other inequities a priority.  CE for the lab: quarterly meeting looking at science papers about these issues. Maybe do 2 min safety. 
+  + I will continue my efforts to recruit excellent undergraduate and graduate students in my lab.  
   + <u>I commit to promoting a culture of inclusivity in the lab.</u>  This involves communicating that inclusivity is a priority, keeping my door open for conversation, and being willing to accept feedback and criticism from lab members in this area.  This means being intentional about seeking out input and ideas from lab members. 
   + <u>I commit to keeping my door open, listening, and to being an ally/advocate.</u> My door is always open if a lab, Department, or Institute member needs a listening ear.  
 + Within the Chemistry & Biochemistry Department and Institute of Molecular Biology, I have two main goals: 1) Recruit and retain diverse undergraduate and PhD students. 2) Increase the diversity of our faculty. One of the main things I have heard in conversations with community members is that we need to make the environment of the Department and Institute more inclusive and welcoming. 
@@ -51,11 +53,13 @@ Given the above, I commit to the following efforts:
 
 ### Lab Member Thoughts
 
++ Luis(?): One or two sentences per person in the lab?
++ List of who is involved in what outreach?  (CAREER peeps, etc.)
++ 
 
 
 
-
-### Conflict Protocol
+### Managing conflict [suggestions???]
 
 As we work together, conflict will inevitably arise.  This, in itself, is not a bad thing. When conflict arises, however, we believe: 1) *Conflict should be resolved fairly and expeditiously*, 2) *Everyone involved should feel heard* and 3) *Everyone involved should grow as a result.*  The following principles will govern how we deal with conflict as a lab:
 
