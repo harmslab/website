@@ -13,341 +13,102 @@
 
         <div class="container-fluid" id="main-container">
 
-            <!--
-            <nav class="navbar navbar-light bg-light sticky-top">
-              <a class="navbar-brand" href="#"></a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-item nav-link" href="#top">home</a>
-                  <a class="nav-item nav-link" href="#people">people</a>
-                  <a class="nav-item nav-link" href="#projects">projects</a>
-                  <a class="nav-item nav-link" href="https://scholar.google.com/citations?hl=en&user=l-IhoaQAAAAJ&view_op=list_works&sortby=pubdate">publications</a>
-                  <a class="nav-item nav-link" href="#justice">justice</a>
-                  <a class="nav-item nav-link" href="#blog">blog</a>
-                </div>
-              </div>
-            </nav>
-            -->
-
             <!-- header container -->
             <div class="container text-center bg-transparent" id="top">
 
                 <br/>
 
-                <h1>Harms lab</h1>
-                <p>Evolutionary biochemistry @UO</p>
+                <h1 class="main-title" style="color:white">Harms Lab</h1>
+                <h3 style="color:white">Evolutionary biochemistry @UO</h3>
 
-                <div class="btn-group" role="group" aria-label="Basic example">
-                  <a href="https://github.com/harmslab" type="button" class="btn btn-link"><img src="img/icons/github.png" class="img-fluid" alt="github"></a>
-                  <a href="https://twitter.com/EvolBiochemist" type="button" class="btn btn-link"><img src="img/icons/twitter.png" class="img-fluid" alt="twitter"></button>
-                  <a href="#location" type="button" class="btn btn-link"><img src="img/icons/maps.png" class="img-fluid" alt="maps"></button>
-                  <a href="mailto:harms@uoregon.edu" type="button" class="btn btn-link"><img src="img/icons/email.png" class="img-fluid" alt="email"></button>
-                  <a href="#" type="button" class="btn btn-link">O</button>
+                <div class="btn-group flex-nowrap" role="group" aria-label="Basic example">
+                  <a href="https://github.com/harmslab" class="btn btn-link"><img src="img/icons/github.png" class="img-fluid" alt="github"></a>
+                  <a href="https://twitter.com/EvolBiochemist" class="btn btn-link"><img src="img/icons/twitter.png" class="img-fluid" alt="twitter"></button>
+                  <a href="#location" class="btn btn-link"><img src="img/icons/maps.png" class="img-fluid" alt="maps"></button>
+                  <a href="mailto:harms@uoregon.edu" class="btn btn-link"><img src="img/icons/email.png" class="img-fluid" alt="email"></button>
                 </div>
 
-                <nav class="nav nav-pills nav-fill">
-                  <a class="nav-item nav-link" href="#people">people</a>
-                  <a class="nav-item nav-link" href="#projects">projects</a>
-                  <a class="nav-item nav-link" href="https://scholar.google.com/citations?hl=en&user=l-IhoaQAAAAJ&view_op=list_works&sortby=pubdate">publications</a>
-                  <a class="nav-item nav-link" href="#justice">justice</a>
-                  <a class="nav-item nav-link" href="#">blog</a>
-                </nav>
+            </div>
 
+            <div class="container text-center bg-transparent sticky-top">
+                <div class="btn-group flex-nowrap bg-transparent rounded" role="group">
+                    <a href="#values" type="button" class="btn btn-dark rounded">values</a>
+                    <a href="#projects" type="button" class="btn btn-dark rounded">projects</a>
+                    <a href="#current-people" type="button" class="btn btn-dark rounded">people</a>
+                    <a href="#publications" type="button" class="btn btn-dark rounded">publications</a>
+                    <a href="#current-funding" type="button" class="btn btn-dark rounded">funding</a>
+                </div>
             </div>
 
             <!-- Big empty container so the first thing people see on the page is
                  the background image -->
-            <div class="container-fluid bg-transparent" style="height:90vh;">
+            <div class="container-fluid bg-transparent" style="height:85vh;">
+            </div>
+
+            <!-- values container -->
+            <div  id="values"></div><br/><br/><br/><br/>
+            <div class="container-fluid bg-light rounded container-strip text-center">
+                <h1 class="main-section-header">Values</h1>
+                <div class="container text-center p-3">
+                        Our goal is for the lab to be a <em>place of human thriving</em>.
+                        In a research group, human thriving means doing excellent and
+                        impactful science.  It also means that each lab member is
+                        healthy and growing as a person, that the work we do makes
+                        the world a better place, and that we strive to make the
+                        scientific enterprise more inclusive and diverse.
+                        <br/><br/> <a href="lab-values.html">Details...</a><br/>
+                </div>
+            </div>
+
+            <!-- projects container -->
+            <div id="projects"></div><br/><br/><br/><br/>
+            <div class="container-fluid bg-light rounded container-strip text-center p-3">
+                <h1 class="main-section-header">Projects</h1>
+                <h5 class="main-section-header">The Harms Lab studies protein evolution and biophysics using experimental and computational methods.</h5>
+                <div class="container text-center p-3"><div class="row"><div class="col-xl-4 col-md-6 col-xs-12 mt-2 mb-3"><div class="hover-holder" ><a href="projects.html#evolution-of-innate-immune-proteins"><img src="img/fig/collage_compressed.png" alt="image" class="hover-image"><div class="hover-overlay"><div class="hover-text fund-text">Evolution through sequence space</div></div></a></div></div><div class="col-xl-4 col-md-6 col-xs-12 mt-2 mb-3"><div class="hover-holder" ><a href="projects.html#innate_immune"><img src="img/fig/tlr4-cp_compressed.png" alt="image" class="hover-image"><div class="hover-overlay"><div class="hover-text fund-text">Evolution of innate immune proteins</div></div></a></div></div><div class="col-xl-4 col-md-6 col-xs-12 mt-2 mb-3"><div class="hover-holder" ><a href="projects.html#evolution-of-specificity"><img src="img/fig/evolution-of-specificity_compressed.png" alt="image" class="hover-image"><div class="hover-overlay"><div class="hover-text fund-text">Evolution of binding specificity</div></div></a></div></div><div class="col-xl-4 col-md-6 col-xs-12 mt-2 mb-3"><div class="hover-holder" ><a href="projects.html#open-source-software"><img src="img/fig/pytc_compressed.png" alt="image" class="hover-image"><div class="hover-overlay"><div class="hover-text fund-text">Open source software</div></div></a></div></div><div class="col-xl-4 col-md-6 col-xs-12 mt-2 mb-3"><div class="hover-holder" ><a href="teaching.html"><img src="img/fig/teaching_compressed.png" alt="image" class="hover-image"><div class="hover-overlay"><div class="hover-text fund-text">Open access teaching</div></div></a></div></div></div><br/></div>
             </div>
 
             <!-- People container -->
-            <div class="container-fluid bg-dark" id="people">
-                <h1 style="font-family:Baskervville;">Current Members</h1>
-                <div class="container text-center p-3">
-
-                    <div class="row">
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                            <img src="img/headshots/harms_circle_150x150.png" class="img-fluid" alt="headshot">
-                        </div>
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                            <img src="img/headshots/muyskens_circle_150x150.png" class="img-fluid" alt="headshot">
-                        </div>
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                            <img src="img/headshots/morrison_circle_150x150.png" class="img-fluid" alt="headshot">
-                        </div>
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                            <img src="img/headshots/shavlik_circle_150x150.png" class="img-fluid" alt="headshot">
-                        </div>
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                            <img src="img/headshots/lehmann_circle_150x150.png" class="img-fluid" alt="headshot">
-                        </div>
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                            <img src="img/headshots/perez_circle_150x150.png" class="img-fluid" alt="headshot">
-                        </div>
-                    </div>
-                    <br/>
-                    <div class="row">
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                            <p class="person-name">Mike Harms</p>
-                        </div>
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                            <p class="person-name">Jon Muyskens</p>
-                        </div>
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                            <p class="person-name">Anneliese Morrison</p>
-                        </div>
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                            <p class="person-name">Michael Shavlik</p>
-                        </div>
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                            <p class="person-name">Lauren Lehmann</p>
-                        </div>
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                            <p class="person-name">Luis Perez</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                            <p class="person-title">Principal Investigator</p>
-                        </div>
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                            <p class="person-title">Lab Manager</p>
-                        </div>
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                            <p class="person-title">PhD student</p>
-                        </div>
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                            <p class="person-title">PhD student</p>
-                        </div>
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                            <p class="person-title">PhD student</p>
-                        </div>
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                            <p class="person-title">PhD student</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                           <div class="btn-group-sm" role="group">
-                                <a href="https://github.com/harmsm" type="button" class="btn btn-link"><img src="img/icons/github.png" class="img-fluid" alt="github"></a>
-                                <a href="https://twitter.com/evolbiochemist" type="button" class="btn btn-link"><img src="img/icons/twitter.png" class="img-fluid" alt="twitter"></a>
-                                <a href="harms@uoregon.edu" type="button" class="btn btn-link"><img src="img/icons/email.png" class="img-fluid" alt="email"></a>
-                           </div>
-                        </div>
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                           <div class="btn-group-sm" role="group">
-                                <a href="jmuysken@uoregon.edu" type="button" class="btn btn-link"><img src="img/icons/email.png" class="img-fluid" alt="email"></a>
-                           </div>
-                        </div>
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                           <div class="btn-group-sm" role="group">
-                                <a href="https://twitter.com/angraliese" type="button" class="btn btn-link"><img src="img/icons/twitter.png" class="img-fluid" alt="twitter"></a>
-                           </div>
-                        </div>
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                           <div class="btn-group-sm" role="group">
-                                <a href="mshavlik@uoregon.edu" type="button" class="btn btn-link"><img src="img/icons/email.png" class="img-fluid" alt="email"></a>
-                                <a href="http://www.gradlifeguidelines.com/" type="button" class="btn btn-link"><img src="img/icons/website.png" class="img-fluid" alt="website"></a>
-                           </div>
-                        </div>
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                           <div class="btn-group-sm" role="group">
-                                <a href="llehmann@uoregon.edu" type="button" class="btn btn-link"><img src="img/icons/email.png" class="img-fluid" alt="email"></a>
-                           </div>
-                        </div>
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                           <div class="btn-group-sm" role="group">
-                                <a href="https://github.com/lperezmo" type="button" class="btn btn-link"><img src="img/icons/github.png" class="img-fluid" alt="github"></a>
-                                <a href="lperezmo@uoregon.edu" type="button" class="btn btn-link"><img src="img/icons/email.png" class="img-fluid" alt="email"></a>
-                                <a href="https://www.linkedin.com/in/luis-perez-morales-763a951b1" type="button" class="btn btn-link"><img src="img/icons/linkedin.png" class="img-fluid" alt="linkedin"></a>
-                           </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                            <p class="person-desc">Favorite part of job: trainees waving graphs in office.</p>
-                        </div>
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                            <p class="person-desc">Developmental biologist turned evolutionary biochemist.</p>
-                        </div>
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                            <p class="person-desc">Experimental studies of sequence space</p>
-                        </div>
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                            <p class="person-desc">Experimental studies of "might-have-been" evolutionary trajectories</p>
-                        </div>
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                            <p class="person-desc">How does S100A9 interact with TLR4?</p>
-                        </div>
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                            <p class="person-desc">Studies of protein sequence space</p>
-                        </div>
-                    </div>
-                    <br/><br/>
-                    <div class="row">
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                            <img src="img/headshots/phillips_circle_150x150.png" class="img-fluid" alt="headshot">
-                        </div>
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                            <img src="img/headshots/murawsky_circle_150x150.png" class="img-fluid" alt="headshot">
-                        </div>
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                            <img src="img/headshots/wonderlick_circle_150x150.png" class="img-fluid" alt="headshot">
-                        </div>
-                    </div>
-                    <br/>
-                    <div class="row">
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                            <p class="person-name">Sophia Phillips</p>
-                        </div>
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                            <p class="person-name">Hannah Murawsky</p>
-                        </div>
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                            <p class="person-name">Daria Wonderlick</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                            <p class="person-title">PhD student</p>
-                        </div>
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                            <p class="person-title">Undergrad researcher</p>
-                        </div>
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                            <p class="person-title">Undergrad researcher</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                           <div class="btn-group-sm" role="group">
-                                <a href="sphill10@uoregon.edu" type="button" class="btn btn-link"><img src="img/icons/email.png" class="img-fluid" alt="email"></a>
-                           </div>
-                        </div>
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                           <div class="btn-group-sm" role="group">
-                           </div>
-                        </div>
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                           <div class="btn-group-sm" role="group">
-                           </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                            <p class="person-desc">Evolution of S100A9</p>
-                        </div>
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                            <p class="person-desc">Evolution of pro-inflammatory receptors</p>
-                        </div>
-                        <div class="col-lg-2 col-sm-3 col-xs-12">
-                            <p class="person-desc">Experimental studies of biophysical basis of high-order epistasis</p>
-                        </div>
-                    </div>
-                    <br/><br/>
-
-                </div>
+            <div id="current-people"></div><br/><br/><br/><br/>
+            <div class="container-fluid bg-light rounded container-strip text-center p-3">
+                <h1 class="main-section-header">Current Members</h1>
+                <div class="container text-center p-3"><div class="row"> <div class="col-lg-2 col-sm-3 col-xs-12 p-1"><div class="card m-0" style="height:100%"><img src="img/headshots/harms_circle_150x150.png" class="card-img-top person-img p-2"><div class="card-body m-0 p-0 "><h4 class="card-title person-name">Mike<br/>Harms</h4><h5 class="card-subtitle person-title">Principal Investigator</h5><br/><p class="card-text person-desc">Favorite part of job: trainees waving graphs in office.</p><br/></div><div class="card-footer m-0 p-0"><p class="card-text person-links"><div class="btn-group" role="group" style="width:100%"><img src="img/icons/dummy.png" class="" alt="dummy"><a href="https://github.com/harmsm" class="btn btn-link p-0"><img src="img/icons/github.png" class="" alt="github"></a><a href="https://twitter.com/evolbiochemist" class="btn btn-link p-0"><img src="img/icons/twitter.png" class="" alt="twitter"></a><a href="harms@uoregon.edu" class="btn btn-link p-0"><img src="img/icons/email.png" class="" alt="email"></a><img src="img/icons/dummy.png" class="" alt="dummy"></div></p></div></div></div> <div class="col-lg-2 col-sm-3 col-xs-12 p-1"><div class="card m-0" style="height:100%"><img src="img/headshots/muyskens_circle_150x150.png" class="card-img-top person-img p-2"><div class="card-body m-0 p-0 "><h4 class="card-title person-name">Jon<br/>Muyskens</h4><h5 class="card-subtitle person-title">Lab Manager</h5><br/><p class="card-text person-desc">Developmental biologist turned evolutionary biochemist.</p><br/></div><div class="card-footer m-0 p-0"><p class="card-text person-links"><div class="btn-group" role="group" style="width:100%"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"><a href="jmuysken@uoregon.edu" class="btn btn-link p-0"><img src="img/icons/email.png" class="" alt="email"></a><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"></div></p></div></div></div> <div class="col-lg-2 col-sm-3 col-xs-12 p-1"><div class="card m-0" style="height:100%"><img src="img/headshots/morrison_circle_150x150.png" class="card-img-top person-img p-2"><div class="card-body m-0 p-0 "><h4 class="card-title person-name">Anneliese<br/>Morrison</h4><h5 class="card-subtitle person-title">PhD student</h5><br/><p class="card-text person-desc">Experimental studies of sequence space</p><br/></div><div class="card-footer m-0 p-0"><p class="card-text person-links"><div class="btn-group" role="group" style="width:100%"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"><a href="https://twitter.com/angraliese" class="btn btn-link p-0"><img src="img/icons/twitter.png" class="" alt="twitter"></a><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"></div></p></div></div></div> <div class="col-lg-2 col-sm-3 col-xs-12 p-1"><div class="card m-0" style="height:100%"><img src="img/headshots/shavlik_circle_150x150.png" class="card-img-top person-img p-2"><div class="card-body m-0 p-0 "><h4 class="card-title person-name">Michael<br/>Shavlik</h4><h5 class="card-subtitle person-title">PhD student</h5><br/><p class="card-text person-desc">Experimental studies of "might-have-been" evolutionary trajectories</p><br/></div><div class="card-footer m-0 p-0"><p class="card-text person-links"><div class="btn-group" role="group" style="width:100%"><img src="img/icons/dummy.png" class="" alt="dummy"><a href="mshavlik@uoregon.edu" class="btn btn-link p-0"><img src="img/icons/email.png" class="" alt="email"></a><a href="http://www.gradlifeguidelines.com/" class="btn btn-link p-0"><img src="img/icons/website.png" class="" alt="website"></a><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"></div></p></div></div></div> <div class="col-lg-2 col-sm-3 col-xs-12 p-1"><div class="card m-0" style="height:100%"><img src="img/headshots/lehmann_circle_150x150.png" class="card-img-top person-img p-2"><div class="card-body m-0 p-0 "><h4 class="card-title person-name">Lauren<br/>Lehmann</h4><h5 class="card-subtitle person-title">PhD student</h5><br/><p class="card-text person-desc">How does S100A9 interact with TLR4?</p><br/></div><div class="card-footer m-0 p-0"><p class="card-text person-links"><div class="btn-group" role="group" style="width:100%"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"><a href="llehmann@uoregon.edu" class="btn btn-link p-0"><img src="img/icons/email.png" class="" alt="email"></a><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"></div></p></div></div></div> <div class="col-lg-2 col-sm-3 col-xs-12 p-1"><div class="card m-0" style="height:100%"><img src="img/headshots/perez_circle_150x150.png" class="card-img-top person-img p-2"><div class="card-body m-0 p-0 "><h4 class="card-title person-name">Luis<br/>Perez</h4><h5 class="card-subtitle person-title">PhD student</h5><br/><p class="card-text person-desc">Studies of protein sequence space</p><br/></div><div class="card-footer m-0 p-0"><p class="card-text person-links"><div class="btn-group" role="group" style="width:100%"><img src="img/icons/dummy.png" class="" alt="dummy"><a href="https://github.com/lperezmo" class="btn btn-link p-0"><img src="img/icons/github.png" class="" alt="github"></a><a href="lperezmo@uoregon.edu" class="btn btn-link p-0"><img src="img/icons/email.png" class="" alt="email"></a><a href="https://www.linkedin.com/in/luis-perez-morales-763a951b1" class="btn btn-link p-0"><img src="img/icons/linkedin.png" class="" alt="linkedin"></a><img src="img/icons/dummy.png" class="" alt="dummy"></div></p></div></div></div> <div class="col-lg-2 col-sm-3 col-xs-12 p-1"><div class="card m-0" style="height:100%"><img src="img/headshots/phillips_circle_150x150.png" class="card-img-top person-img p-2"><div class="card-body m-0 p-0 "><h4 class="card-title person-name">Sophia<br/>Phillips</h4><h5 class="card-subtitle person-title">PhD student</h5><br/><p class="card-text person-desc">Evolution of S100A9</p><br/></div><div class="card-footer m-0 p-0"><p class="card-text person-links"><div class="btn-group" role="group" style="width:100%"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"><a href="sphill10@uoregon.edu" class="btn btn-link p-0"><img src="img/icons/email.png" class="" alt="email"></a><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"></div></p></div></div></div> <div class="col-lg-2 col-sm-3 col-xs-12 p-1"><div class="card m-0" style="height:100%"><img src="img/headshots/murawsky_circle_150x150.png" class="card-img-top person-img p-2"><div class="card-body m-0 p-0 "><h4 class="card-title person-name">Hannah<br/>Murawsky</h4><h5 class="card-subtitle person-title">Undergrad researcher</h5><br/><p class="card-text person-desc">Evolution of pro-inflammatory receptors</p><br/></div><div class="card-footer m-0 p-0"><p class="card-text person-links"><div class="btn-group" role="group" style="width:100%"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"></div></p></div></div></div> <div class="col-lg-2 col-sm-3 col-xs-12 p-1"><div class="card m-0" style="height:100%"><img src="img/headshots/wonderlick_circle_150x150.png" class="card-img-top person-img p-2"><div class="card-body m-0 p-0 "><h4 class="card-title person-name">Daria<br/>Wonderlick</h4><h5 class="card-subtitle person-title">Undergrad researcher</h5><br/><p class="card-text person-desc">Experimental studies of biophysical basis of high-order epistasis</p><br/></div><div class="card-footer m-0 p-0"><p class="card-text person-links"><div class="btn-group" role="group" style="width:100%"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"></div></p></div></div></div></div><br/></div>
             </div>
 
-            <!-- People container -->
-            <div class="container-fluid bg-dark">
-                <h1 style="font-family:Baskervville;">Previous Members</h1>
-                <div class="container text-center p-3">{{ session.previous_people }}</div>
+            <!-- Previous people container -->
+            <div id="previous-people"></div><br/><br/><br/></br>
+            <div class="container-fluid bg-light rounded container-strip text-center p-3">
+                <h1 class="main-section-header">Previous Members</h1>
+                <h5 class="main-section-header">(in reverse order of when each left)</h5>
+                <div class="container text-center p-3"><div class="row"> <div class="col-lg-2 col-sm-3 col-xs-12 p-1"><div class="card m-0" style="height:100%"><img src="img/headshots/harman_circle_150x150.png" class="card-img-top person-img p-2"><div class="card-body m-0 p-0 "><h4 class="card-title person-name">Joseph<br/>Harman</h4><h5 class="card-subtitle person-title">PhD, 2020</h5><br/><p class="card-text person-desc">Postdoc with David Baker, U Washington</p><br/></div><div class="card-footer m-0 p-0"><p class="card-text person-links"><div class="btn-group" role="group" style="width:100%"><img src="img/icons/dummy.png" class="" alt="dummy"><a href="https://github.com/jharman25" class="btn btn-link p-0"><img src="img/icons/github.png" class="" alt="github"></a><a href="https://twitter.com/jharman25" class="btn btn-link p-0"><img src="img/icons/twitter.png" class="" alt="twitter"></a><a href="jharman@uoregon.edu" class="btn btn-link p-0"><img src="img/icons/email.png" class="" alt="email"></a><img src="img/icons/dummy.png" class="" alt="dummy"></div></p></div></div></div> <div class="col-lg-2 col-sm-3 col-xs-12 p-1"><div class="card m-0" style="height:100%"><img src="img/headshots/connor_circle_150x150.png" class="card-img-top person-img p-2"><div class="card-body m-0 p-0 "><h4 class="card-title person-name">Patrick<br/>Connor</h4><h5 class="card-subtitle person-title">Undergrad</h5><br/><p class="card-text person-desc">Biochemistry</p><br/></div><div class="card-footer m-0 p-0"><p class="card-text person-links"><div class="btn-group" role="group" style="width:100%"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"></div></p></div></div></div> <div class="col-lg-2 col-sm-3 col-xs-12 p-1"><div class="card m-0" style="height:100%"><img src="img/headshots/warren_circle_150x150.png" class="card-img-top person-img p-2"><div class="card-body m-0 p-0 "><h4 class="card-title person-name">Gus<br/>Warren</h4><h5 class="card-subtitle person-title">Undergrad</h5><br/><p class="card-text person-desc">Biochemistry</p><br/></div><div class="card-footer m-0 p-0"><p class="card-text person-links"><div class="btn-group" role="group" style="width:100%"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"></div></p></div></div></div> <div class="col-lg-2 col-sm-3 col-xs-12 p-1"><div class="card m-0" style="height:100%"><img src="img/headshots/frantz_circle_150x150.png" class="card-img-top person-img p-2"><div class="card-body m-0 p-0 "><h4 class="card-title person-name">Nick<br/>Frantz</h4><h5 class="card-subtitle person-title">Masters, 2020</h5><br/><p class="card-text person-desc">Biochemistry</p><br/></div><div class="card-footer m-0 p-0"><p class="card-text person-links"><div class="btn-group" role="group" style="width:100%"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"><a href="nfrantz@uoregon.edu" class="btn btn-link p-0"><img src="img/icons/email.png" class="" alt="email"></a><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"></div></p></div></div></div> <div class="col-lg-2 col-sm-3 col-xs-12 p-1"><div class="card m-0" style="height:100%"><img src="img/headshots/anderson_circle_150x150.png" class="card-img-top person-img p-2"><div class="card-body m-0 p-0 "><h4 class="card-title person-name">Jeremy<br/>Anderson</h4><h5 class="card-subtitle person-title">Postdoc</h5><br/><p class="card-text person-desc">Data scientist</p><br/></div><div class="card-footer m-0 p-0"><p class="card-text person-links"><div class="btn-group" role="group" style="width:100%"><img src="img/icons/dummy.png" class="" alt="dummy"><a href="https://github.com/biophyser" class="btn btn-link p-0"><img src="img/icons/github.png" class="" alt="github"></a><a href="https://twitter.com/Biophyser" class="btn btn-link p-0"><img src="img/icons/twitter.png" class="" alt="twitter"></a><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"></div></p></div></div></div> <div class="col-lg-2 col-sm-3 col-xs-12 p-1"><div class="card m-0" style="height:100%"><img src="img/headshots/dorrell_circle_150x150.png" class="card-img-top person-img p-2"><div class="card-body m-0 p-0 "><h4 class="card-title person-name">Genevieve<br/>Dorrell</h4><h5 class="card-subtitle person-title">Undergrad</h5><br/><p class="card-text person-desc">Marine Biology</p><br/></div><div class="card-footer m-0 p-0"><p class="card-text person-links"><div class="btn-group" role="group" style="width:100%"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"></div></p></div></div></div> <div class="col-lg-2 col-sm-3 col-xs-12 p-1"><div class="card m-0" style="height:100%"><img src="img/headshots/goldbach_circle_150x150.png" class="card-img-top person-img p-2"><div class="card-body m-0 p-0 "><h4 class="card-title person-name">Leander<br/>Goldbach</h4><h5 class="card-subtitle person-title">Visiting Masters Student</h5><br/><p class="card-text person-desc"></p><br/></div><div class="card-footer m-0 p-0"><p class="card-text person-links"><div class="btn-group" role="group" style="width:100%"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"></div></p></div></div></div> <div class="col-lg-2 col-sm-3 col-xs-12 p-1"><div class="card m-0" style="height:100%"><img src="img/headshots/loes_circle_150x150.png" class="card-img-top person-img p-2"><div class="card-body m-0 p-0 "><h4 class="card-title person-name">Andrea<br/>Loes</h4><h5 class="card-subtitle person-title">PhD, 2018</h5><br/><p class="card-text person-desc">Lab manager, Bloom Lab, Fred Hutch</p><br/></div><div class="card-footer m-0 p-0"><p class="card-text person-links"><div class="btn-group" role="group" style="width:100%"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"></div></p></div></div></div> <div class="col-lg-2 col-sm-3 col-xs-12 p-1"><div class="card m-0" style="height:100%"><img src="img/headshots/sailer_circle_150x150.png" class="card-img-top person-img p-2"><div class="card-body m-0 p-0 "><h4 class="card-title person-name">Zach<br/>Sailer</h4><h5 class="card-subtitle person-title">PhD, 2018</h5><br/><p class="card-text person-desc">Software developer, Jupyter project</p><br/></div><div class="card-footer m-0 p-0"><p class="card-text person-links"><div class="btn-group" role="group" style="width:100%"><img src="img/icons/dummy.png" class="" alt="dummy"><a href="http://github.com/zsailer" class="btn btn-link p-0"><img src="img/icons/github.png" class="" alt="github"></a><a href="https://twitter.com/zrsailer" class="btn btn-link p-0"><img src="img/icons/twitter.png" class="" alt="twitter"></a><a href="zachsailer@gmail.com" class="btn btn-link p-0"><img src="img/icons/email.png" class="" alt="email"></a><img src="img/icons/dummy.png" class="" alt="dummy"></div></p></div></div></div> <div class="col-lg-2 col-sm-3 col-xs-12 p-1"><div class="card m-0" style="height:100%"><img src="img/headshots/wong_circle_150x150.png" class="card-img-top person-img p-2"><div class="card-body m-0 p-0 "><h4 class="card-title person-name">Caitlyn<br/>Wong</h4><h5 class="card-subtitle person-title">Undergrad</h5><br/><p class="card-text person-desc">Biochemistry (honors thesis)</p><br/></div><div class="card-footer m-0 p-0"><p class="card-text person-links"><div class="btn-group" role="group" style="width:100%"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"><a href="https://twitter.com/cwong37" class="btn btn-link p-0"><img src="img/icons/twitter.png" class="" alt="twitter"></a><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"></div></p></div></div></div> <div class="col-lg-2 col-sm-3 col-xs-12 p-1"><div class="card m-0" style="height:100%"><img src="img/headshots/wheeler_circle_150x150.png" class="card-img-top person-img p-2"><div class="card-body m-0 p-0 "><h4 class="card-title person-name">Luke<br/>Wheeler</h4><h5 class="card-subtitle person-title">PhD, 2017</h5><br/><p class="card-text person-desc">Postdoc with Stacey Smith, UC Boulder</p><br/></div><div class="card-footer m-0 p-0"><p class="card-text person-links"><div class="btn-group" role="group" style="width:100%"><img src="img/icons/dummy.png" class="" alt="dummy"><a href="http://github.com/lcwheeler" class="btn btn-link p-0"><img src="img/icons/github.png" class="" alt="github"></a><a href="https://twitter.com/LCWheeler9000" class="btn btn-link p-0"><img src="img/icons/twitter.png" class="" alt="twitter"></a><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"></div></p></div></div></div> <div class="col-lg-2 col-sm-3 col-xs-12 p-1"><div class="card m-0" style="height:100%"><img src="img/headshots/shi_circle_150x150.png" class="card-img-top person-img p-2"><div class="card-body m-0 p-0 "><h4 class="card-title person-name">Ran<br/>Shi</h4><h5 class="card-subtitle person-title">Undergrad</h5><br/><p class="card-text person-desc">Biochemistry</p><br/></div><div class="card-footer m-0 p-0"><p class="card-text person-links"><div class="btn-group" role="group" style="width:100%"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"></div></p></div></div></div> <div class="col-lg-2 col-sm-3 col-xs-12 p-1"><div class="card m-0" style="height:100%"><img src="img/headshots/rickett_circle_150x150.png" class="card-img-top person-img p-2"><div class="card-body m-0 p-0 "><h4 class="card-title person-name">Bram<br/>Rickett</h4><h5 class="card-subtitle person-title">Undergrad</h5><br/><p class="card-text person-desc">Biochemistry (honors thesis)</p><br/></div><div class="card-footer m-0 p-0"><p class="card-text person-links"><div class="btn-group" role="group" style="width:100%"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"></div></p></div></div></div> <div class="col-lg-2 col-sm-3 col-xs-12 p-1"><div class="card m-0" style="height:100%"><img src="img/headshots/duvvuri_circle_150x150.png" class="card-img-top person-img p-2"><div class="card-body m-0 p-0 "><h4 class="card-title person-name">Hiranmayi<br/>Duvvuri</h4><h5 class="card-subtitle person-title">Undergrad</h5><br/><p class="card-text person-desc">Biochemistry</p><br/></div><div class="card-footer m-0 p-0"><p class="card-text person-links"><div class="btn-group" role="group" style="width:100%"><img src="img/icons/dummy.png" class="" alt="dummy"><a href="https://github.com/hrmyd" class="btn btn-link p-0"><img src="img/icons/github.png" class="" alt="github"></a><a href="https://twitter.com/hduvvuri8" class="btn btn-link p-0"><img src="img/icons/twitter.png" class="" alt="twitter"></a><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"></div></p></div></div></div> <div class="col-lg-2 col-sm-3 col-xs-12 p-1"><div class="card m-0" style="height:100%"><img src="img/headshots/heaphy_circle_150x150.png" class="card-img-top person-img p-2"><div class="card-body m-0 p-0 "><h4 class="card-title person-name">Maureen<br/>Heaphy</h4><h5 class="card-subtitle person-title">Undergrad</h5><br/><p class="card-text person-desc">Marine Biology</p><br/></div><div class="card-footer m-0 p-0"><p class="card-text person-links"><div class="btn-group" role="group" style="width:100%"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"></div></p></div></div></div> <div class="col-lg-2 col-sm-3 col-xs-12 p-1"><div class="card m-0" style="height:100%"><img src="img/headshots/smith_circle_150x150.png" class="card-img-top person-img p-2"><div class="card-body m-0 p-0 "><h4 class="card-title person-name">Jaclyn<br/>Smith</h4><h5 class="card-subtitle person-title">Undergrad</h5><br/><p class="card-text person-desc"></p><br/></div><div class="card-footer m-0 p-0"><p class="card-text person-links"><div class="btn-group" role="group" style="width:100%"><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"><a href="https://github.com/jacmarjorie" class="btn btn-link p-0"><img src="img/icons/github.png" class="" alt="github"></a><img src="img/icons/dummy.png" class="" alt="dummy"><img src="img/icons/dummy.png" class="" alt="dummy"></div></p></div></div></div></div><br/></div>
             </div>
 
-            <br/>
-
-            <!-- projects container -->
-            <div class="container-fluid bg-dark" id="projects">
-                <h1 style="font-family:Baskervville;">Projects</h1>
+            <!-- publications container -->
+            <div id="publications"></div><br/><br/><br/></br>
+            <div class="container-fluid bg-light rounded container-strip text-center p-3">
+                <h1 class="main-section-header">Publications</h1>
+                <div class="container p-3"><div class="list-group"><a href="https://doi.org/10.1101/2020.05.27.120261" class="list-group-item list-group-item-action"><div class="row"><div class="col-s-10 col-xs-12 p-1 publication-cite-box"><span class="publication-year align-left">first revision</span><br/><br/><span class="publication-title">Were ancestral proteins less specific?</span><br/><br/><span class="publication-journal">bioRxiv</span> <span \class="publication-meta"></span><br/><br/><span class="publication-authors">Wheeler LC & <span class="publication-main-author">Harms MJ</span></span></div></div></a><a href="https://doi.org/10.1101/2020.06.02.131086 " class="list-group-item list-group-item-action"><div class="row"><div class="col-s-10 col-xs-12 p-1 publication-cite-box"><span class="publication-year align-left">second review</span><br/><br/><span class="publication-title">Learning Peptide Recognition Rules for a Low Specificity Protein</span><br/><br/><span class="publication-journal">bioRxiv</span> <span \class="publication-meta"></span><br/><br/><span class="publication-authors">Wheeler LC, Perkins, Wong CE, <span class="publication-main-author">Harms MJ</span></span></div></div></a><a href="https://doi.org/10.1101/606970 " class="list-group-item list-group-item-action"><div class="row"><div class="col-s-10 col-xs-12 p-1 publication-cite-box"><span class="publication-year align-left">first review</span><br/><br/><span class="publication-title">Skeletal geometry and nice transitions restore organ size and shape during zebrafish fin regeneration</span><br/><br/><span class="publication-journal">bioRxiv</span> <span \class="publication-meta"></span><br/><br/><span class="publication-authors">Stewart S, Yette GA, Le Bleu HK, Henner AL, Braunstein JA, Chehab JW, <span class="publication-main-author">Harms MJ</span>, Stankunas K</span></div></div></a><a href="https://doi.org/10.1101/817528" class="list-group-item list-group-item-action"><div class="row"><div class="col-s-10 col-xs-12 p-1 publication-cite-box"><span class="publication-year align-left">second review</span><br/><br/><span class="publication-title">Identification and characterization of zebrafish Tlr4 co-receptor Md-2</span><br/><br/><span class="publication-journal">bioRxiv</span> <span \class="publication-meta"></span><br/><br/><span class="publication-authors">Loes AN, Hinman MN, Farnsworth DR, Miler AC, Guillemin K, <span class="publication-main-author">Harms MJ</span></span></div></div></a><a href="" class="list-group-item list-group-item-action"><div class="row"><div class="col-s-10 col-xs-12 p-1 publication-cite-box"><span class="publication-year align-left">in press</span><br/><br/><span class="publication-title">Inferring a complete genotype-phenotype map from a small number of measured phenotypes</span><br/><br/><span class="publication-journal">PLOS Computational Biology</span> <span \class="publication-meta"></span><br/><br/><span class="publication-authors">Sailer ZS, Shafik SH, Summers RL, Joul A, Patterson-Robert A, Martin RE, <span class="publication-main-author">Harms MJ</span></span></div></div></a><a href="https://elifesciences.org/articles/54100" class="list-group-item list-group-item-action"><div class="row"><div class="col-s-10 col-xs-12 p-1 publication-cite-box"><span class="publication-year align-left">2020</span><br/><br/><span class="publication-title">Evolution of multifunctionality through a pleiotropic substitution in the innate immune protein S100A9</span><br/><br/><span class="publication-journal">eLife</span> <span \class="publication-meta">9:e54100 </span><br/><br/><span class="publication-authors">Harman JL, Loes AN, Warren GD, Heaphy MC, Lampi KJ, <span class="publication-main-author">Harms MJ</span></span></div></div></a><a href="https://doi.org/10.1002/pro.3644" class="list-group-item list-group-item-action"><div class="row"><div class="col-s-10 col-xs-12 p-1 publication-cite-box"><span class="publication-year align-left">2019</span><br/><br/><span class="publication-title">Tracing the evolution of novel features of human Toll-like receptor 4</span><br/><br/><span class="publication-journal">Protein Science</span> <span \class="publication-meta">28(7):1350-1358</span><br/><br/><span class="publication-authors">Anderson JA, Loes AN, Shi R, Waddell GL, <span class="publication-main-author">Harms MJ</span></span></div></div></a><a href="https://pubs.acs.org/doi/10.1021/acs.biochem.7b01264" class="list-group-item list-group-item-action"><div class="row"><div class="col-s-10 col-xs-12 p-1 publication-cite-box"><span class="publication-year align-left">2018</span><br/><br/><span class="publication-title">pytc: open source python software for global analyses of isothermal titration calorimetry data</span><br/><br/><span class="publication-journal">Biochemistry</span> <span \class="publication-meta">57(18):2578–2583</span><br/><br/><span class="publication-authors">Duvuuri H, Wheeler LW, <span class="publication-main-author">Harms MJ</span></span></div></div></a><a href="https://doi.org/10.3389/fimmu.2018.00304" class="list-group-item list-group-item-action"><div class="row"><div class="col-s-10 col-xs-12 p-1 publication-cite-box"><span class="publication-year align-left">2018</span><br/><br/><span class="publication-title">Coevolution of the Toll-Like Receptor 4 complex with calgranulins and lipopolysaccharide</span><br/><br/><span class="publication-journal">Frontiers in Immunology</span> <span \class="publication-meta"></span><br/><br/><span class="publication-authors">Loes AN, Bridgham JT, <span class="publication-main-author">Harms MJ</span></span></div></div></a><a href="https://pubs.acs.org/doi/10.1021/acs.biochem.7b01086" class="list-group-item list-group-item-action"><div class="row"><div class="col-s-10 col-xs-12 p-1 publication-cite-box"><span class="publication-year align-left">2018</span><br/><br/><span class="publication-title">Conservation of specificity in two low-specificity proteins</span><br/><br/><span class="publication-journal">Biochemistry</span> <span \class="publication-meta">57(5):684-695</span><br/><br/><span class="publication-authors">Wheeler LW, Anderson JA, Morrison AJ, Wong CE, <span class="publication-main-author">Harms MJ</span></span></div></div></a><a href="https://www.nature.com/articles/s41589-018-0064-x" class="list-group-item list-group-item-action"><div class="row"><div class="col-s-10 col-xs-12 p-1 publication-cite-box"><span class="publication-year align-left">2018</span><br/><br/><span class="publication-title">Enzymes emerge by upcycling [News & Views]</span><br/><br/><span class="publication-journal">Nature Chemical Biology</span> <span \class="publication-meta">14:526-527</span><br/><br/><span class="publication-authors"><span class="publication-main-author">Harms MJ</span></span></div></div></a><a href="https://doi.org/10.1186/s13628-017-0040-y" class="list-group-item list-group-item-action"><div class="row"><div class="col-s-10 col-xs-12 p-1 publication-cite-box"><span class="publication-year align-left">2017</span><br/><br/><span class="publication-title">Ca2+ and Cu2+ bind independently to human S100A5</span><br/><br/><span class="publication-journal">BMC Biophysics</span> <span \class="publication-meta">10:8</span><br/><br/><span class="publication-authors">Wheeler LW, <span class="publication-main-author">Harms MJ</span></span></div></div></a><a href="https://www.pnas.org/content/114/45/11938" class="list-group-item list-group-item-action"><div class="row"><div class="col-s-10 col-xs-12 p-1 publication-cite-box"><span class="publication-year align-left">2017</span><br/><br/><span class="publication-title">Molecular ensembles make evolution unpredictable</span><br/><br/><span class="publication-journal">PNAS</span> <span \class="publication-meta">114(45):11938-11943</span><br/><br/><span class="publication-authors">Sailer ZS, <span class="publication-main-author">Harms MJ</span></span></div></div></a><a href="https://doi.org/10.1371/journal.pcbi.1005541" class="list-group-item list-group-item-action"><div class="row"><div class="col-s-10 col-xs-12 p-1 publication-cite-box"><span class="publication-year align-left">2017</span><br/><br/><span class="publication-title">High-order epistasis shapes evolutionary trajectories</span><br/><br/><span class="publication-journal">PLOS Computational Biology</span> <span \class="publication-meta"></span><br/><br/><span class="publication-authors">Sailer ZS, <span class="publication-main-author">Harms MJ</span></span></div></div></a><a href="https://www.genetics.org/content/205/3/1079" class="list-group-item list-group-item-action"><div class="row"><div class="col-s-10 col-xs-12 p-1 publication-cite-box"><span class="publication-year align-left">2017</span><br/><br/><span class="publication-title">Detecting high-order epistasis in nonlinear genotype-phenotype maps</span><br/><br/><span class="publication-journal">Genetics</span> <span \class="publication-meta">205(3):1079-1088</span><br/><br/><span class="publication-authors">Sailer ZS, <span class="publication-main-author">Harms MJ</span></span></div></div></a><a href="https://academic.oup.com/mbe/article/34/2/247/2449965" class="list-group-item list-group-item-action"><div class="row"><div class="col-s-10 col-xs-12 p-1 publication-cite-box"><span class="publication-year align-left">2017</span><br/><br/><span class="publication-title">Robustness of reconstructed ancestral protein functions to statistical uncertainty</span><br/><br/><span class="publication-journal">Molecular Biology and Evolution</span> <span \class="publication-meta">34 (2):247-261</span><br/><br/><span class="publication-authors">Eick GN, Bridgham JT, Anderson DP, <span class="publication-main-author">Harms MJ</span>, Thornton JM</span></div></div></a><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0164740" class="list-group-item list-group-item-action"><div class="row"><div class="col-s-10 col-xs-12 p-1 publication-cite-box"><span class="publication-year align-left">2016</span><br/><br/><span class="publication-title">Multiple evolutionary origins of ubiquitous Cu2+ and Zn2+ binding in the S100 protein family</span><br/><br/><span class="publication-journal">PLOS ONE</span> <span \class="publication-meta">11(10): e0164740</span><br/><br/><span class="publication-authors">Wheeler LW, Donor M, Prell JS, <span class="publication-main-author">Harms MJ</span></span></div></div></a><a href="https://www.pnas.org/content/113/46/13045.short" class="list-group-item list-group-item-action"><div class="row"><div class="col-s-10 col-xs-12 p-1 publication-cite-box"><span class="publication-year align-left">2016</span><br/><br/><span class="publication-title">Following the folding trajectory of RNases H over evolutionary time: a trend towards kinetic stability</span><br/><br/><span class="publication-journal">PNAS</span> <span \class="publication-meta">113(46):13045-13050</span><br/><br/><span class="publication-authors">Li SM, Hart KM, <span class="publication-main-author">Harms MJ</span>, Marqusee S</span></div></div></a><a href="https://www.sciencedirect.com/science/article/abs/pii/S0959440X16300501" class="list-group-item list-group-item-action"><div class="row"><div class="col-s-10 col-xs-12 p-1 publication-cite-box"><span class="publication-year align-left">2016</span><br/><br/><span class="publication-title">Ancient protein thermostability and specificity [Invited Review]</span><br/><br/><span class="publication-journal">Current Opinions in Structural Biology</span> <span \class="publication-meta">38:37-43</span><br/><br/><span class="publication-authors">Wheeler LW, Li SM, Marqusee S, <span class="publication-main-author">Harms MJ</span></span></div></div></a><a href="https://doi.org/10.1371/journal.pbio.1001994" class="list-group-item list-group-item-action"><div class="row"><div class="col-s-10 col-xs-12 p-1 publication-cite-box"><span class="publication-year align-left">2014</span><br/><br/><span class="publication-title">Thermodynamic system drift in the evolution of protein thermostability</span><br/><br/><span class="publication-journal">PLOS Biology</span> <span \class="publication-meta">12(11):e1001994</span><br/><br/><span class="publication-authors">Hart KM, <span class="publication-main-author">Harms MJ</span>, Schmidt BH, Thornton JW, Marqusee S</span></div></div></a><a href="https://www.nature.com/articles/nature13410" class="list-group-item list-group-item-action"><div class="row"><div class="col-s-10 col-xs-12 p-1 publication-cite-box"><span class="publication-year align-left">2014</span><br/><br/><span class="publication-title">Biophysical basis for historical contingency in glucocorticoid receptor evolution</span><br/><br/><span class="publication-journal">Nature</span> <span \class="publication-meta">512:203-207</span><br/><br/><span class="publication-authors"><span class="publication-main-author">Harms MJ</span>, Thornton JW</span></div></div></a><a href="https://www.pnas.org/content/110/28/11475" class="list-group-item list-group-item-action"><div class="row"><div class="col-s-10 col-xs-12 p-1 publication-cite-box"><span class="publication-year align-left">2013</span><br/><br/><span class="publication-title">Biophysical mechanisms for large-effect mutations in the evolution of steroid hormone receptors</span><br/><br/><span class="publication-journal">PNAS</span> <span \class="publication-meta">110(28):11475-11480</span><br/><br/><span class="publication-authors"><span class="publication-main-author">Harms MJ</span>, Eick GN, Colucci J, Ortlund EA, Thornton JW</span></div></div></a><a href="https://www.nature.com/articles/nrg3540" class="list-group-item list-group-item-action"><div class="row"><div class="col-s-10 col-xs-12 p-1 publication-cite-box"><span class="publication-year align-left">2013</span><br/><br/><span class="publication-title">Evolutionary biochemistry: Revealing the historical and physical causes of protein function</span><br/><br/><span class="publication-journal">Nature Reviews Genetics</span> <span \class="publication-meta">14(8):559-571</span><br/><br/><span class="publication-authors"><span class="publication-main-author">Harms MJ</span>, Thornton JW</span></div></div></a><a href="https://doi.org/10.1016/j.jmb.2013.05.031" class="list-group-item list-group-item-action"><div class="row"><div class="col-s-10 col-xs-12 p-1 publication-cite-box"><span class="publication-year align-left">2013</span><br/><br/><span class="publication-title">Resurrection of an Urbilaterian U1A/U2B''/SNF protein</span><br/><br/><span class="publication-journal">Journal of Molecular Biology</span> <span \class="publication-meta">425(20):3846–3862</span><br/><br/><span class="publication-authors">Williams SG, <span class="publication-main-author">Harms MJ</span>, Hall KB</span></div></div></a><a href="https://doi.org/10.1371/journal.pgen.1003072" class="list-group-item list-group-item-action"><div class="row"><div class="col-s-10 col-xs-12 p-1 publication-cite-box"><span class="publication-year align-left">2012</span><br/><br/><span class="publication-title">Evolution of minimal specificity in the steroid receptors</span><br/><br/><span class="publication-journal">PLOS Genetics</span> <span \class="publication-meta">8(11):e1003072</span><br/><br/><span class="publication-authors">Eick GN, Colucci J, <span class="publication-main-author">Harms MJ</span>, Ortlund EA, Thornton JW</span></div></div></a><a href="https://doi.org/10.1073/pnas.1104808108" class="list-group-item list-group-item-action"><div class="row"><div class="col-s-10 col-xs-12 p-1 publication-cite-box"><span class="publication-year align-left">2011</span><br/><br/><span class="publication-title">Arginine is ionized at internal positions in a protein</span><br/><br/><span class="publication-journal">PNAS</span> <span \class="publication-meta">108(47):18954-9 </span><br/><br/><span class="publication-authors"><span class="publication-main-author">Harms MJ</span>, Schlessman JL, Sue GR, García-Moreno E. B.</span></div></div></a><a href="https://doi.org/10.1371/journal.pbio.1000497" class="list-group-item list-group-item-action"><div class="row"><div class="col-s-10 col-xs-12 p-1 publication-cite-box"><span class="publication-year align-left">2010</span><br/><br/><span class="publication-title">Protein evolution by molecular tinkering: diversification of the nuclear receptor superfamily from a ligand-dependent ancestor</span><br/><br/><span class="publication-journal">PLOS Biology</span> <span \class="publication-meta">8(10):e1000497</span><br/><br/><span class="publication-authors">Bridgham JT, Eick G, Larroux C, Deshpande K, <span class="publication-main-author">Harms MJ</span>, Gauthier MEA, Ortlund EA, Degnan BM, Thornton JW</span></div></div></a><a href="https://doi.org/10.1016/j.sbi.2010.03.005" class="list-group-item list-group-item-action"><div class="row"><div class="col-s-10 col-xs-12 p-1 publication-cite-box"><span class="publication-year align-left">2010</span><br/><br/><span class="publication-title">Analyzing protein structure and function using ancestral gene reconstruction</span><br/><br/><span class="publication-journal">Current Opinions in Structural Biology</span> <span \class="publication-meta">20(3):360-366</span><br/><br/><span class="publication-authors"><span class="publication-main-author">Harms MJ</span>, Thornton JW</span></div></div></a><a href="https://doi.org/10.1016/j.jmb.2009.03.039" class="list-group-item list-group-item-action"><div class="row"><div class="col-s-10 col-xs-12 p-1 publication-cite-box"><span class="publication-year align-left">2009</span><br/><br/><span class="publication-title">The pKa values of acidic and basic residues buried at the same internal location in a protein are governed by different factors</span><br/><br/><span class="publication-journal">Journal of Molecular Biology</span> <span \class="publication-meta">389:34-47</span><br/><br/><span class="publication-authors"><span class="publication-main-author">Harms MJ</span>, Castañeda CA, Schlessman JL, Sue GR, Isom DG, Cannon BR, García-Moreno E. B. </span></div></div></a><a href="https://dx.doi.org/10.1110%2Fps.073397708" class="list-group-item list-group-item-action"><div class="row"><div class="col-s-10 col-xs-12 p-1 publication-cite-box"><span class="publication-year align-left">2008</span><br/><br/><span class="publication-title">A buried lysine that titrates with a normal pKa: Role of conformational flexibility at the protein–water interface as a determinant of pKa values</span><br/><br/><span class="publication-journal">Protein Science</span> <span \class="publication-meta">17:833-845</span><br/><br/><span class="publication-authors"><span class="publication-main-author">Harms MJ</span>, Schlessman JL, Chimenti MS, Sue GR, Damjanovic A, García-Moreno E. B.</span></div></div></a><a href="https://doi.org/10.1073/pnas.0409455102" class="list-group-item list-group-item-action"><div class="row"><div class="col-s-10 col-xs-12 p-1 publication-cite-box"><span class="publication-year align-left">2005</span><br/><br/><span class="publication-title">How sequence defines structure: a crystallographic map of DNA structure and conformation</span><br/><br/><span class="publication-journal">PNAS</span> <span \class="publication-meta">102(20):7157-7162</span><br/><br/><span class="publication-authors">Hays FA, Teegarden A, Jones ZJR, <span class="publication-main-author">Harms MJ</span>, Raup D, Watson F, Cavaliere E, Ho PS</span></div></div></a><a href="https://dx.doi.org/10.1110%2Fps.03427504" class="list-group-item list-group-item-action"><div class="row"><div class="col-s-10 col-xs-12 p-1 publication-cite-box"><span class="publication-year align-left">2003</span><br/><br/><span class="publication-title">Laser light-scattering evidence for an altered association of βB1-crystallin deamidated in the connecting peptide</span><br/><br/><span class="publication-journal">Protein Science</span> <span \class="publication-meta">13:678-686</span><br/><br/><span class="publication-authors"><span class="publication-main-author">Harms MJ</span>, Wilmarth PA, Kapfer DM, Steel EA, David LL, Bachinger HP, Lampi KJ</span></div></div></a></div></div>
             </div>
 
-            <br/>
 
-            <!-- projects container -->
-            <div class="container-fluid bg-dark" id="justice">
-                <h1 style="font-family:Baskervville;">Justice</h1>
+
+            <!-- current funding container -->
+            <div  id="current-funding"></div><br/><br/><br/><br/>
+            <div class="container-fluid bg-light rounded container-strip text-center">
+                <h1 class="main-section-header">Current Funding</h1>
+                <div class="container text-center p-3"><div class="row mx-auto"><div class="col-lg-2 col-sm-2 col-xs-12"><div class="hover-holder" ><a href="https://projectreporter.nih.gov/project_info_description.cfm?aid=9780516&icde=51291337&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC&pball="><img src="img/funding/nih_150x150.png_compressed.png" alt="image" class="img-fluid"><div class="hover-overlay"><div class="hover-text img-fluid">NIH R01GM117140-04</div></div></a></div></div><div class="col-lg-2 col-sm-2 col-xs-12"><div class="hover-holder" ><a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1844963&HistoricalAwards=false"><img src="img/funding/nsf_150x150.png" alt="image" class="img-fluid"><div class="hover-overlay"><div class="hover-text img-fluid">NSF CAREER 2019, #1844963</div></div></a></div></div><div class="col-lg-2 col-sm-2 col-xs-12"><div class="hover-holder" ><a href="http://molbio.uoregon.edu/molbio-training-program/"><img src="img/funding/nih_150x150.png_compressed.png" alt="image" class="img-fluid"><div class="hover-overlay"><div class="hover-text img-fluid">NIH T32GM007759</div></div></a></div></div><div class="col-lg-2 col-sm-2 col-xs-12"><div class="hover-holder" ><a href="http://molbio.uoregon.edu/genetics-training-program/"><img src="img/funding/nih_150x150.png_compressed.png" alt="image" class="img-fluid"><div class="hover-overlay"><div class="hover-text img-fluid">NIH T32GM007413</div></div></a></div></div></div><br/></div>
             </div>
 
-            <br/>
-
-            <!-- strip holding the map and location -->
-            <div class="container-fluid bg-dark" id="location">
-                <div class="container text-center p-3">
-                    <div class="row">
-                        <div class="col-sm-7 my-auto">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2867.811475999374!2d-123.07494428428154!3d44.04594963496235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54c11e3b6ac92bef%3A0x16ac56301cd9b69e!2sWillamette%20Hall!5e0!3m2!1sen!2sus!4v1592522748853!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                        </div>
-                        <div class="col-sm-5 my-auto">
-                            <h1 style="font-family:Baskervville;">Location</h1>
-                            <p>Mike's office: Willamette 340A</p>
-                            <p>Lab: Willamette 340, 342</p>
-                            <br/>
-                            <p>Harms Lab</p>
-                            <p>Institute for Molecular Biology</p>
-                            <p>1229 University of Oregon</p>
-                            <p>Eugene, OR  97403-1229</p>
-                            <br/>
-                            <p>Lab phone: 541-346-9003</p>
-                        </div>
-                    </div>
-                </div>
+            <!-- previous funding container -->
+            <div id="previous-funding"></div><br/><br/><br/><br/>
+            <div class="container-fluid bg-light rounded container-strip text-center">
+                <h1 class="main-section-header">Previous Funding</h1>
+                <div class="container text-center p-3"><div class="row mx-auto"><div class="col-lg-2 col-sm-2 col-xs-12"><div class="hover-holder" ><a href="https://sloan.org/past-fellows"><img src="img/funding/sloan_141x150.png_compressed.png" alt="image" class="img-fluid"><div class="hover-overlay"><div class="hover-text img-fluid">2015 Sloan<br/>Evolutionary& Computational Molec Biol</div></div></a></div></div><div class="col-lg-4 col-sm-4 col-xs-12"><div class="hover-holder" ><a href="https://www.pewtrusts.org/en/projects/pew-biomedical-scholars/directory-of-pew-scholars/2015/michael-harms"><img src="img/funding/pew_424x150.png_compressed.png" alt="image" class="img-fluid"><div class="hover-overlay"><div class="hover-text img-fluid">2015 Pew Biomedical Scholar</div></div></a></div></div><div class="col-lg-4 col-sm-4 col-xs-12"><div class="hover-holder" ><a href="https://www.heart.org/"><img src="img/funding/aha_374x150.png_compressed.png" alt="image" class="img-fluid"><div class="hover-overlay"><div class="hover-text img-fluid">AHA-15BGIA22830013</div></div></a></div></div><div class="col-lg-2 col-sm-2 col-xs-12"><div class="hover-holder" ><a href="https://www.ohsu.edu/foundation/mrf-grants"><img src="img/funding/ohsu_137x150.png_compressed.png" alt="image" class="img-fluid"><div class="hover-overlay"><div class="hover-text img-fluid">Medical Research Foundation New Investigator Grant</div></div></a></div></div></div><br/></div>
             </div>
 
-            <br/>
-
-
-            <!-- strip holding our current funding -->
-            <div class="container-fluid bg-dark" id="current-funding">
-                <div class="container text-center p-3">
-                    <h1 style="font-family:Baskervville;">Current Funding</h1>
-                    <div class="row">
-                        <div class="col-sm-2 my-auto">
-                            <img src="img/funding/nih_150x150.png" class="img-fluid" alt="NIH">
-                        </div>
-                        <div class="col-sm-3 my-auto text-left" style="line-height:1.5;">
-                            <ul>
-                                <li><a href="https://projectreporter.nih.gov/project_info_description.cfm?aid=9780516&map=y">R01GM117140-04</a></li>
-                                <li><a href="http://molbio.uoregon.edu/molbio-training-program/">T32GM007759</a></li>
-                                <li><a href="http://molbio.uoregon.edu/genetics-training-program/">T32GM007413</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-2 my-auto">
-                            <img src="img/funding/nsf_150x150.png" class="img-fluid" alt="NSF">
-                        </div>
-                        <div class="col-sm-3 my-auto text-left">
-                            <p><a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1844963&HistoricalAwards=false">NSF CAREER 2019, #1844963</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <br/>
-
-
-            <!-- strip holding our previou funding -->
-            <div class="container-fluid bg-dark" id="previous-funding">
-                <div class="container text-center p-3">
-                    <h1 style="font-family:Baskervville;">Past Funding</h1>
-                    <div class="row">
-                        <div class="col-sm-4 my-auto">
-                            <img src="img/funding/aha_374x150.png" class="img-fluid" alt="american heart association">
-                        </div>
-                        <div class="col-sm-4 my-auto">
-                            <img src="img/funding/pew_424x150.png" class="img-fluid" alt="pew">
-                        </div>
-                        <div class="col-sm-2 my-auto">
-                            <img src="img/funding/sloan_141x150.png" class="img-fluid" alt="sloan">
-                        </div>
-                        <div class="col-sm-2 my-auto">
-                            <img src="img/funding/ohsu_137x150.png" class="img-fluid" alt="ohsu">
-                        </div>
-                    </div>
-
-                </div>
+            <!-- Big empty container to allow page to scroll down for funding-->
+            <br/><br/><br/><br/>
+            <div class="container-fluid bg-transparent" style="height:85vh;">
             </div>
 
         </div>
