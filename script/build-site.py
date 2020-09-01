@@ -451,6 +451,8 @@ def install_into(target_dir):
 
     if os.path.isfile("CNAME"):
         html_files.append("CNAME")
+    if os.path.isfile(".nojekyll"):
+        html_files.append(".nojekyll")
 
     dirs = [d for d in os.listdir() if os.path.isdir(d) and d[0] != "."]
 

@@ -2,6 +2,8 @@
 
 The text below reflects the lab philosophy, values, and policies.  This text is subject to review and revision as we, as a lab, grow and change over time.
 
+----
+
 # Community Standards
 
 These are the basic "rules for the road" that govern conduct and procedures in the Harms lab.  Everyone who joins the lab should read them and agree to abide by them. We will review and update these once a year.
@@ -20,45 +22,56 @@ These are the basic "rules for the road" that govern conduct and procedures in t
 
 # Mike's thoughts on Diversity, Equity, and Inclusion
 
-Leadership positions in science and at the University of Oregon are dominated by white men.  Others have done an excellent job documenting [why this is](link) and [why this is a problem](link). This is not an easy problem, nor is it one that will be solved quickly.  Despite the stated intentions of most scientists, the system as a whole continues to favor white men, particularly in leadership positions. This is something that I am committed to change.
+Leadership positions in science and at the University of Oregon are dominated by white men.  Others have done an excellent job [documenting this problem and discussing ways forward](https://www.bhallalab.com/equity-reading-list), (also [here](https://greatergood.berkeley.edu/article/item/how_diversity_makes_us_smarter) and [here](https://www.nature.com/articles/d41586-018-05326-3)).  This is not an easy problem, nor is it one that will be solved quickly.  Despite the stated intentions of most scientists, the system as a whole continues to favor white men, particularly in leadership positions. This is something that I am committed to change.
 
 + I recognize that I, as someone who is a member of this majority class, have had opportunities and privileges unavailable to others that have been crucial to my success as a scientist.
 + I recognize that I, as a privileged individual and leader in the scientific community, have a responsibility to work toward correcting these inequities.
 + I recognize that systemic issues require systemic solutions.  It is not enough for me to be personally inclusive and welcoming; I must work to change the system as a whole.
 
-Given this, I commit to the following actions:
+<br>
 
-### In my lab
+#### Given this, I commit to the following actions
 
-+ <u>I will encourage my students to participate in efforts to promote equity and inclusion in the sciences.</u>  This includes, but is not limited to, encouraging them to join UO organizations such as [UOWGS](https://blogs.uoregon.edu/uowgs/) and [CMIS](https://pages.uoregon.edu/cmis/index.html); supporting their participation in Departmental committees like [CBGReAT](https://blogs.uoregon.edu/cbgreat/) and the Diversity, Equity, and Inclusion Committee; funding travel to meetings and workshops devoted to improved equity and inclusion (e.g. [SACNAS](https://www.sacnas.org/what-we-do/conference/), [GRC Power Hour](https://www.grc.org/the-power-hour/)); and inviting students to participate in outreach activities such as [Skype a Scientist](https://www.skypeascientist.com/) and [SPICE](https://www.spicescience.org/).
-+ <u>I will make continuing education about racial and other inequities a priority.</u>  We will do so through a quarterly lab meeting devoted to equity and inclusion.
-+ <u>I will continue my efforts to recruit excellent, diverse undergraduate and graduate students in my lab.</u>
-+ <u>I commit to promoting a culture of inclusivity in the lab.</u>  This involves communicating that inclusivity is a priority, keeping my door open for conversation, and being willing to accept feedback and criticism from lab members in this area.  This means being intentional about seeking out input and ideas from lab members.
-+ <u>I commit to keeping my door open, listening, and to being an ally/advocate.</u>
+<br>
 
-### Within the Chemistry & Biochemistry Department and Institute of Molecular Biology
+#### In my lab
+
++ _I will encourage my students to participate in efforts to promote equity and inclusion in the sciences._ This includes, but is not limited to, encouraging them to join UO organizations such as [UOWGS](https://blogs.uoregon.edu/uowgs/) and [CMIS](https://pages.uoregon.edu/cmis/index.html); supporting their participation in Departmental committees like [CBGReAT](https://blogs.uoregon.edu/cbgreat/) and the Diversity, Equity, and Inclusion Committee; funding travel to meetings and workshops devoted to improved equity and inclusion (e.g. [SACNAS](https://www.sacnas.org/what-we-do/conference/), [GRC Power Hour](https://www.grc.org/the-power-hour/)); and inviting students to participate in outreach activities such as [Skype a Scientist](https://www.skypeascientist.com/) and [SPICE](https://www.spicescience.org/).
++ _I will make continuing education about racial and other inequities a priority._  We will do so through a quarterly lab meeting devoted to equity and inclusion.  I will also continue to educate myself.  (Two excellent sets of resources are [here](https://www.nature.com/collections/qsgnpdtgbr
+) and [here](https://www.bhallalab.com/equity-reading-list).)
++ _I will continue my efforts to recruit excellent, diverse undergraduate and graduate students in my lab._
++ _I commit to promoting a culture of inclusivity in the lab._  This involves communicating that inclusivity is a priority, keeping my door open for conversation, and being willing to accept feedback and criticism from lab members in this area.  This means being intentional about seeking out input and ideas from lab members.
++ _I commit to keeping my door open, listening, and to being an ally/advocate._
+
+<br>
+
+
+#### Within the Chemistry & Biochemistry Department and Institute of Molecular Biology
 
 I have three main goals:
 
-1. Recruit and retain diverse undergraduate and PhD students.
-2. Increase the diversity of our faculty.
-3. Make the overall environment of the Department and Institute more inclusive and welcoming.  
++ Recruit and retain diverse undergraduate and PhD students.
++ Increase the diversity of our faculty.
++ Make the overall environment of the Department and Institute more inclusive and welcoming.  
 
-I will:
+<br/>I will:
 
-+ <u>As chair of the PhD admissions committee, I will strive to recruit talented and diverse PhD students.</u>  This includes targeted outreach to diverse students: recruiting at meetings such as [NOBCChE](https://www.nobcche.org/conference) and [SACNAS](https://www.sacnas.org/what-we-do/conference/), having faculty give seminars at majority non-white undergraduate universities, and leveraging financial resources at the UO specifically targeted to support non-majority students.  This also includes removing barriers to non-majority students: employing strategies to counter implicit bias when screening applications and dropping unfair admissions requirements ([such as the GRE](https://smallpondscience.com/2019/03/08/what-are-the-reasons-we-have-for-dropping-the-gre/)).  
-+ <u>As a member of the Graduate Education Committee, I will work with PhD students to improve the climate and inclusivity of the Chemistry & Biochemistry Department.</u>  The core mandate of this committee is to listen to students (via the [CBGReAT](https://blogs.uoregon.edu/cbgreat/) student organization) and then pass their thoughts on to the faculty. In my experience, students are much more sensitive to issues of inclusivity than faculty: I commit to listening and engaging with these students.
-+ <u>In my recurring role as a faculty search committee member, I will do my best to recruit diverse faculty.</u> I will: 1) Advocate in the department and to the administration for the importance of diverse faculty for our future growth and success; 2) Reach out and encourage diverse young scientists in my sphere of influence to apply for positions at the UO; and 3) Use strategies to counter implicit bias when evaluating applicants.  In addition to this work while on the admissions committee, I will continue to pursue so-called opportunity hires of diverse faculty outside the normal application cycle. I am also hopeful that work on overall departmental and institute climate will improve our ability to recruit diverse faculty members.
-+ <u>I commit to doing my part to ensure a diverse slate of seminar speakers.</u>  This will, hopefully help communicate our commitment to diversity to existing Institute/Department members, as well as help younger students imagine themselves in such leadership roles.
-+ I will continue to facilitate [mentorship training workshops](https://cimerproject.org/), with an emphasis on equity and inclusion.
++ _As chair of the PhD admissions committee, I will strive to recruit talented and diverse PhD students._  This includes targeted outreach to diverse students: recruiting at meetings such as [NOBCChE](https://www.nobcche.org/conference) and [SACNAS](https://www.sacnas.org/what-we-do/conference/), having faculty give seminars at majority non-white undergraduate universities, and leveraging financial resources at the UO specifically targeted to support non-majority students.  This also includes removing barriers to non-majority students: employing strategies to counter implicit bias when screening applications and dropping unfair admissions requirements ([such as the GRE](https://smallpondscience.com/2019/03/08/what-are-the-reasons-we-have-for-dropping-the-gre/)).  
++ _As a member of the Graduate Education Committee, I will work with PhD students to improve the climate and inclusivity of the Chemistry & Biochemistry Department._  The core mandate of this committee is to listen to students (via the [CBGReAT](https://blogs.uoregon.edu/cbgreat/) student organization) and then pass their thoughts on to the faculty. In my experience, students are much more sensitive to issues of inclusivity than faculty: I commit to listening and engaging with these students.
++ _In my recurring role as a faculty search committee member, I will do my best to recruit diverse faculty._ I will: 1) Advocate in the department and to the administration for the importance of diverse faculty for our future growth and success; 2) Reach out and encourage diverse young scientists in my sphere of influence to apply for positions at the UO; and 3) Use strategies to counter implicit bias when evaluating applicants.  In addition to this work while on the admissions committee, I will continue to pursue so-called opportunity hires of diverse faculty outside the normal application cycle. I am also hopeful that work on overall departmental and institute climate will improve our ability to recruit diverse faculty members.
++ _I commit to doing my part to ensure a diverse slate of seminar speakers._  This will, hopefully help communicate our commitment to diversity to existing Institute/Department members, as well as help younger students imagine themselves in such leadership roles.
++ _I will continue to facilitate [mentorship training workshops](https://cimerproject.org/)_, with an emphasis on equity and inclusion.
 
-### In the broader community
+<br>
 
-+ <u>I commit to soliciting diverse reviews for manuscripts I edit</u>
-+ <u>I commit to promoting equity and inclusion at scientific meetings I have influence in</u> (for example, the [Proteins GRC](https://www.grc.org/proteins-conference/)).  For example, this can involve inviting diverse slates of speakers, facilitating career development workshops, etc.
-+ <u>I commit to promoting the careers of diverse young scientists</u> through inviting them to give seminars, having them present at meetings, and by providing appropriate mentorship and advice if requested.
-+ <u>I commit to using my voice on [social media](https://twitter.com/EvolBiochemist) to advocate for social justice</u>.  
+#### In the broader community
 
++ _I commit to soliciting diverse reviews for manuscripts I edit._
++ _I commit to promoting equity and inclusion at scientific meetings I have influence in_ (for example, the [Proteins GRC](https://www.grc.org/proteins-conference/)).  This may involve inviting diverse slates of speakers, facilitating career development workshops, etc.
++ _I commit to promoting the careers of diverse young scientists_ through inviting them to give seminars, having them present at meetings, and by providing appropriate mentorship and advice if requested.
++ _I commit to using my voice on [social media](https://twitter.com/EvolBiochemist)_ to advocate for social justice.  
+
+<br>
 
 ----
 
