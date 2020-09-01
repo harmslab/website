@@ -21,7 +21,7 @@
                 <h1 class="main-title" style="color:white">Harms Lab</h1>
                 <h3 style="color:white">Evolutionary biochemistry @UO</h3>
 
-                <div class="btn-group flex-nowrap" role="group" aria-label="Basic example">
+                <div class="btn-group flex-nowrap justify-content-center" role="group" aria-label="Basic example">
                   <a href="https://github.com/harmslab" class="btn btn-link"><img src="img/icons/github.png" class="img-fluid" alt="github"></a>
                   <a href="https://twitter.com/EvolBiochemist" class="btn btn-link"><img src="img/icons/twitter.png" class="img-fluid" alt="twitter"></button>
                   <a href="#location" class="btn btn-link"><img src="img/icons/maps.png" class="img-fluid" alt="maps"></button>
@@ -30,13 +30,13 @@
 
             </div>
 
-            <div class="container text-center bg-transparent sticky-top">
-                <div class="btn-group flex-nowrap bg-transparent rounded" role="group">
-                    <a href="#values" type="button" class="btn btn-dark rounded">values</a>
-                    <a href="#projects" type="button" class="btn btn-dark rounded">projects</a>
-                    <a href="#current-people" type="button" class="btn btn-dark rounded">people</a>
-                    <a href="#publications" type="button" class="btn btn-dark rounded">publications</a>
-                    <a href="#current-funding" type="button" class="btn btn-dark rounded">funding</a>
+            <div class="container text-center bg-transparent sticky-top  ">
+                <div class="btn-group bg-transparent rounded" role="group">
+                    <a href="#values" type="button" class="btn btn-dark rounded"><span class="d-none d-sm-block">values</span><span class="d-sm-none">values</span></a>
+                    <a href="#projects" type="button" class="btn btn-dark rounded"><span class="d-none d-sm-block">projects</span><span class="d-sm-none">proj</span></a>
+                    <a href="#current-people" type="button" class="btn btn-dark rounded"><span class="d-none d-sm-block">people</span><span class="d-sm-none">peeps</span></a>
+                    <a href="#publications" type="button" class="btn btn-dark rounded"><span class="d-none d-sm-block">publications</span><span class="d-sm-none">pubs</span></a>
+                    <a href="#current-funding" type="button" class="btn btn-dark rounded"><span class="d-none d-sm-block">funding</span><span class="d-sm-none">funds</span></a>
                 </div>
             </div>
 
@@ -104,6 +104,35 @@
             <div class="container-fluid bg-light rounded container-strip text-center">
                 <h1 class="main-section-header">Previous Funding</h1>
                 <div class="container text-center p-3">{{ session.previous_funding }}</div>
+            </div>
+
+            <div id="location"></div><br/><br/><br/></br>
+            <div class="container-fluid bg-light rounded container-strip text-center">
+                <h1 class="main-section-header">Location</h1>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2867.811475999367!2d-123.07494428426067!3d44.045949634962504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54c11e3b6ac92bef%3A0x16ac56301cd9b69e!2sWillamette+Hall!5e0!3m2!1sen!2sus!4v1531859557373" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <br/>
+                        <h5>Location on campus</h5>
+                        <p>
+                            Mike's office: Willamette 340A<br/>
+                            Lab: Willamette 340, 342<br/>
+                        </p>
+                        <br/>
+                        <h5>Address</h5>
+                        <p>
+                            Harms Lab</br>
+                            Institute for Molecular Biology</br>
+                            1229 University of Oregon</br>
+                            Eugene, OR  97403-1229</br>
+                        <br/>
+                        <h5>Phone</h5>
+                        <p>541-346-9003</p>
+                    </div>
+                </div>
+                <br/>
             </div>
 
             <!-- Big empty container to allow page to scroll down for funding-->

@@ -1,5 +1,10 @@
 #!/usr/bin/env python
-__usage__ = "generate-site.py source_dir"
+__description__ = \
+"""
+Install the website into the github docs folder (like sphinx-build)
+"""
+__author__ = "Michael J. Harrms"
+__usage__ = "build.py source_dir [target_dir]"
 
 import jinja2
 import mistune
@@ -7,8 +12,7 @@ import mistune
 import pandas as pd
 import numpy as np
 
-import sys, os, re, glob
-
+import sys, os, re, glob, shutil
 
 def generate_hover(image_file,
                    text=None,
@@ -18,6 +22,15 @@ def generate_hover(image_file,
                    image_class=None,
                    alt_text=None):
     """
+    Generate html that encodes hovering-over image effects.
+
+    image_file: an image file (required)
+    text: text to show on hover
+    link: link when image is clicked on
+    html: html to show when image is clicked on (placed after text)
+    text_class: class to assign text
+    image_class: class to assign image
+    alt_text: alt_text to show if image is missing
     """
 
     # Make sure file exists
@@ -69,7 +82,10 @@ def generate_hover(image_file,
 
 def to_projects(df,col_per_row=4):
     """
+    Parse "projects" tab from spreadsheet and generate pretty rows.
 
+    df: dataframe extracted from spreadsheet.
+    col_per_row: number of columns per row.
     """
 
     # Break projects into rows
@@ -225,6 +241,9 @@ def to_people(df,col_per_row=6):
     return "".join(html)
 
 def to_publications(df,main_author="Harms MJ"):
+    """
+    Generate pretty publications list.
+    """
 
     p = re.compile(main_author)
 
@@ -276,7 +295,7 @@ def to_publications(df,main_author="Harms MJ"):
 
 def to_funding(df):
     """
-
+    Create pretty funding list.
     """
 
     # Break projects into rows
@@ -319,7 +338,9 @@ def to_funding(df):
     return "".join(html)
 
 def parse_markdown(md_file):
-
+    """
+    Create pretty html from a markdown file.
+    """
 
     f = open(md_file)
     md = f.read()
@@ -347,12 +368,6 @@ def parse_markdown(md_file):
 
             html = re.sub(m,new_header,html)
 
-            #print(m[4:])
-
-            #print(re.sub(m,"stupid",html))
-
-
-
     hr_pattern = re.compile("\<hr\>")
 
     out = []
@@ -368,26 +383,38 @@ def parse_markdown(md_file):
 
 
 def generate_index(page_file,template_file):
+    """
+    Generate an index file.  Do so given a pages.xlsx file and a template
+    html file.
+    """
 
     session = {}
 
+    # Projects
     df = pd.read_excel(page_file,sheet_name="projects")
     session["projects"] = to_projects(df)
 
+    # People
     df = pd.read_excel(page_file,sheet_name="people")
     session["current_people"] = to_people(df[df.status == "current"])
     session["previous_people"] = to_people(df[df.status == "previous"])
 
+    # Publications
     df = pd.read_excel(page_file,sheet_name="publications")
     session["publications"] = to_publications(df)
 
+    # Funding
     df = pd.read_excel(page_file,sheet_name="funding")
     session["current_funding"] = to_funding(df[df.status == "current"])
     session["previous_funding"] = to_funding(df[df.status == "previous"])
 
+    # Use junja to make html
     session_to_html(session,template_file,"index.html")
 
 def generate_from_markdown(md_file,template_file):
+    """
+    Use jinja to load content from markdown into a template file.
+    """
 
     session = {}
     session["content"] = parse_markdown(md_file)
@@ -397,6 +424,9 @@ def generate_from_markdown(md_file,template_file):
 
 
 def session_to_html(session,template_file,output_file):
+    """
+    Use jinja load generated html into an html file.
+    """
 
     template_loader = jinja2.FileSystemLoader(searchpath="./")
     template_env = jinja2.Environment(loader=template_loader,
@@ -407,6 +437,31 @@ def session_to_html(session,template_file,output_file):
     f = open(output_file,"w")
     f.write(output)
     f.close()
+
+def install_into(target_dir):
+
+    if os.path.isdir(target_dir):
+        shutil.rmtree(target_dir)
+
+    os.mkdir(target_dir)
+
+    html_files = glob.glob("*.html",recursive=True)
+    to_whack = re.compile("_template.html")
+    html_files = [f for f in html_files if not to_whack.search(f)]
+
+    if os.path.isfile("CNAME"):
+        html_files.append("CNAME")
+    if os.path.isfile(".nojekyll"):
+        html_files.append(".nojekyll")
+
+    dirs = [d for d in os.listdir() if os.path.isdir(d) and d[0] != "."]
+
+    for f in html_files:
+        shutil.copy(f,target_dir)
+
+
+    for d in dirs:
+        shutil.copytree(d,os.path.join(target_dir,d))
 
 
 def main(argv=None):
@@ -420,6 +475,12 @@ def main(argv=None):
         err = f"Incorrect arguments. Usage:\n\n{__usage__}\n\n"
         raise ValueError(err)
 
+    # Figure out if we are installing into target_dir
+    try:
+        target_dir = argv[1]
+        target_dir = os.path.abspath(target_dir)
+    except IndexError:
+        target_dir = None
 
     os.chdir(source_dir)
     page_file = "pages.xlsx"
@@ -428,9 +489,14 @@ def main(argv=None):
 
     generate_index(page_file,index_template)
 
-    # Genereate markdown files
+    # Generate markdown files
     for md_file in glob.glob("*.md"):
         generate_from_markdown(md_file,basic_template)
+
+    if target_dir is not None:
+        install_into(target_dir)
+
+
 
 
 if __name__ == "__main__":
