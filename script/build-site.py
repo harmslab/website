@@ -157,6 +157,9 @@ def to_people(df,col_per_row=6):
                     continue
             except TypeError:
                 l = row[possible].strip()
+                if possible == "email":
+                    l = f"mailto:{l}" 
+
                 icon = "img/icons/{}.png".format(possible)
                 links.append(f"<a href=\"{l}\" class=\"btn btn-link p-0\"><img src=\"{icon}\" class=\"\" alt=\"{possible}\"></a>")
 
