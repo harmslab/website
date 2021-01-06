@@ -4,6 +4,26 @@ I make the material for all classes I teach available on github. These are relea
 
 ----
 
+###Chalkboard biochemistry lectures
+
+These are a set of 10-15 minute videos that aim to hit some of the core concepts
+in biochemistry.  These videos aim to develop intuition and focus on big ideas
+rather than details. They are designed to complement, not replace, a standard
+lecture and reading material for each topic. 
+
+- [Players and interactions](https://youtu.be/7RFcniQSepM)
+- [Tiny molecules, big effects](https://youtu.be/7cmplufiKVc)
+- [Amino acid diversity](https://youtu.be/ejgmcMAjaDw)
+- [Protein structure](https://youtu.be/fxr7v0rcoFE)
+- [Thinking about reactions](https://youtu.be/_2vZERcvmh0)
+- [Binding interactions](https://youtu.be/IYE_agixRb0)
+- [Cooperativity](https://youtu.be/iJwg66gt6Qo)
+- [Enzymes as catalysts](https://youtu.be/2IhBXKEgjag)
+- [Michaelis-Menten kinetics](https://youtu.be/f92AZ4JfjM0)
+
+
+----
+
 ###Biochem and cellular physiology (B281H)
 
 [Material](https://github.com/harmsm/bi281h-discussions)
