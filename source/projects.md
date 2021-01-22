@@ -9,7 +9,8 @@
 + [... "high-order" epistasis (multi-way interactions between mutations) are ubiquitous in experimental sequence spaces.](http://www.genetics.org/content/205/3/1079)
 + [... high-order epistasis shapes evolutionary trajectories. ](http://journals.plos.org/ploscompbiol/article?rev=2&id=10.1371/journal.pcbi.1005541)
 + [... high-order epistasis is a natural consequence of the thermodynamic ensemble populated by proteins.](http://www.pnas.org/content/114/45/11938.short)
-+ [...we can build predictive models to fill in incompletely measured genotype-phenotype maps](#)
++ [...we can build predictive models to fill in incompletely measured genotype-phenotype maps.](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008243)
++ [...thermodynamic ensembles can lead to many classes of epistasis (magnitude, sign, reciprocal sign, and high-order).](https://www.biorxiv.org/content/10.1101/2020.10.14.339671v1)
 
 #### Current projects:
 
@@ -103,7 +104,7 @@ GPSeer uses a simple, straightforward approach to infer the missing phenotypes f
 
 https://gpseer.readthedocs.io
 
-Publication in press
+[Sailer, Z.R. et al (2020). *PLOS Computational Biology* 16(9):e1008243.](https://doi.org/10.1371/journal.pcbi.1008243)
 
 ###genotype-phenotype map support libraries
 
