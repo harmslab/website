@@ -21,7 +21,6 @@ lecture and reading material for each topic.
 - [Enzymes as catalysts](https://youtu.be/2IhBXKEgjag)
 - [Michaelis-Menten kinetics](https://youtu.be/f92AZ4JfjM0)
 
-
 ----
 
 ###Biochem and cellular physiology (B281H)
