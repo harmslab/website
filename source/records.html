@@ -39,11 +39,11 @@
 <li class="list-group-item"><strong>Archival readability:</strong> Data needs to be readable by labs that do not possess any proprietary software used by our lab.</li>
 <li class="list-group-item"><strong>Publication:</strong> All published experimental data should be readily available to requesting labs.</li>
 </ul>
-<h3>Backup</h3>
+<p>###Backup</p>
 <ul class="list-group">
 <li class="list-group-item">STUB</li>
 </ul>
-<h3>File organization</h3>
+<p>###File organization</p>
 <p>A challenging aspect of lab data management is connecting the random files on a computer to their context in the real world (lab notebook, instrument settings, etc.). The following describes the best practices for four basic types of data we generate in the lab.</p>
 <h3>Basic experimental data</h3>
 <ul class="list-group">
@@ -52,14 +52,14 @@ YYYY-MM-DD_notebook-page_descriptive-name</li>
 <li class="list-group-item">The raw experimental data should be exported into an appropriate non-proprietary, long-term file format.</li>
 <li class="list-group-item">Each directory should have a clearly labeled summary file (image, text file/document, or graph). The summary file should be printed out and placed in the lab notebook.</li>
 </ul>
-<h4>Example:</h4>
+<p>####Example:</p>
 <p>An ITC copper binding experiment done on September 20, 2013, cross-referenced to page 29 of MJH lab notebook #3. The final-summary.pdf file was printed out and placed in on that page in the lab notebook. The experimental directory would like something like:</p>
 <p>2013-09-20_mjh3-29_hS100A5-copper-binding-itc/</p>
 <p>instrument_output.itc –&gt; raw experiment file
 instrument_output.txt –&gt; exported into ascii text file
 integration.opj –&gt; fitting file
 final-summary.pdf –&gt; exported pdf showing ITC trace</p>
-</div></div><br/><div class="container bg-light rounded mx-auto"><div class="m-3 p-3">
+<hr />
 <h3><strong>Large experimental/computational data</strong></h3>
 <p>This can be challenging to organize effectively. There has to be flexibility here because each project is different, but the important point is to think about someone trying to take apart the results without any other context. The following basic approach may be a useful starting point.</p>
 <ul class="list-group">
@@ -69,7 +69,7 @@ final-summary.pdf –&gt; exported pdf showing ITC trace</p>
 <li class="list-group-item">If possible, put the whole project under control of version control software (i.e. git).</li>
 </ul>
 <p><strong>EXAMPLE:</strong></p>
-</div></div><br/><div class="container bg-light rounded mx-auto"><div class="m-3 p-3">
+<hr />
 <p>This is a subset of the files in a directory I used to generate a phylogeny of members of the S100 protein family. This process involves many different software packages, manual tweaks, and edits.</p>
 <p>complete-s100-phylogeny/</p>
 <p>README.txt
@@ -101,7 +101,7 @@ phyml_tree.txt</p>
 <p>01_alignment (2013-09-30): create an alignment of the sequences using msaprobs, followed my manual refinement in Mesquite.</p>
 <p>02_initial-tree (2013-09-30): create an initial tree using phyml. Used LG+gamma8 model, SPR moves.</p>
 <p>03_try-different-models (2013-10-04): …</p>
-</div></div><br/><div class="container bg-light rounded mx-auto"><div class="m-3 p-3">
+<hr />
 <h3><strong>Software</strong></h3>
 <p>Stub: version control with git</p>
 <h3>File formats</h3>

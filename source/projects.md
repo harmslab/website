@@ -1,4 +1,4 @@
-#Sequence Space
+# Sequence Space
 
 ### An evolving protein must traverse sequence space.  What determines which pathways are accessible?
 
@@ -10,7 +10,7 @@
 + [... high-order epistasis shapes evolutionary trajectories. ](http://journals.plos.org/ploscompbiol/article?rev=2&id=10.1371/journal.pcbi.1005541)
 + [... high-order epistasis is a natural consequence of the thermodynamic ensemble populated by proteins.](http://www.pnas.org/content/114/45/11938.short)
 + [...we can build predictive models to fill in incompletely measured genotype-phenotype maps.](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008243)
-+ [...thermodynamic ensembles can lead to many classes of epistasis (magnitude, sign, reciprocal sign, and high-order).](https://www.biorxiv.org/content/10.1101/2020.10.14.339671v1)
++ [...thermodynamic ensembles can lead to many classes of epistasis (magnitude, sign, reciprocal sign, and high-order).](https://doi.org/10.1093/genetics/iyab105)
 
 #### Current projects:
 
@@ -28,11 +28,11 @@ We are studying the co-evolution of five proteins that play intersecting roles i
 
 ![tlr4-cp](img/fig/tlr4-cp.png)
 
-####We found that...
+#### We found that...
 
 + [... an early calgranulin evolved in the amniote ancestor interacts non-specifically with TLR4.](https://www.frontiersin.org/articles/10.3389/fimmu.2018.00304/full)
 + [... the human TLR4/MD-2 complex has--since the human-mouse ancestor--evolved new specificity for pro-inflammatory signals.](https://onlinelibrary.wiley.com/doi/full/10.1002/pro.3644)
-+ [... TLR4 evolved in the ancestor of bony vertebrates. Zebrafish TLR4 responds to the same signals that activate human TLR4.](https://www.biorxiv.org/content/10.1101/817528v1)
++ [... TLR4 evolved in the ancestor of bony vertebrates. Zebrafish TLR4 responds to the same signals that activate human TLR4.](https://doi.org/10.4049/jimmunol.1901288)
 + [... S100A9 activates TLR4 in a Zn(II)-independent fashion.](https://www.biorxiv.org/content/10.1101/796219v1)
 + [...S100A9 evolved multifunctionality through a pleiotropic substitution.](https://doi.org/10.1101/865493)
 
@@ -59,7 +59,8 @@ S100 proteins are small, calcium signaling molecules that bind to a wide variety
 
 #### Current projects:
 
-+ What are the sets of biological targets for S100A5 and S100A6?
++ What evolutionary forces shape the changes in binding set? 
++ To what extent are changes in binding set coupled to changes in function?
 
 ----
 
@@ -106,7 +107,7 @@ https://gpseer.readthedocs.io
 
 [Sailer, Z.R. et al (2020). *PLOS Computational Biology* 16(9):e1008243.](https://doi.org/10.1371/journal.pcbi.1008243)
 
-###genotype-phenotype map support libraries
+### genotype-phenotype map support libraries
 
 Our studies of genotype-phenotype maps rely on a core set of libraries that we have released as individual packages. 
 
