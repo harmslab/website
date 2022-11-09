@@ -349,7 +349,7 @@ def parse_markdown(md_file):
     md = f.read()
     f.close()
 
-    md_parser = mistune.Markdown()
+    md_parser = mistune.Markdown(renderer=mistune.HTMLRenderer()) #escape=False, parse_block_html=True))
 
     html = md_parser(md)
 

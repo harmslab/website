@@ -4,7 +4,7 @@ I make the material for all classes I teach available on github. These are relea
 
 ----
 
-###Chalkboard biochemistry lectures
+### Chalkboard biochemistry lectures
 
 These are a set of 10-15 minute videos that aim to hit some of the core concepts
 in biochemistry.  These videos aim to develop intuition and focus on big ideas
@@ -23,11 +23,11 @@ lecture and reading material for each topic.
 
 ----
 
-###Biochem and cellular physiology (B281H)
+### Biochem and cellular physiology (B281H)
 
 [Material](https://github.com/harmsm/bi281h-discussions)
 
-####Course objectives
+#### Course objectives
 
 - Survey the key molecular and cellular features shared by all organisms on earth, revealing how life can be understood in physical and chemical terms.
 - Begin to develop intuition and analytical tools to think about life quantitatively and molecularly.
@@ -41,7 +41,7 @@ lecture and reading material for each topic.
 
 ----
 
-###Scientific programming (CH410/510)
+### Scientific programming (CH410/510)
 
 [Material](https://github.com/harmsm/pythonic-science)
 
@@ -73,7 +73,7 @@ By the end of the course, students should be able to:
 
 [Material](https://github.com/harmsm/ch662-lectures)
 
-####Course objectives
+#### Course objectives
 
 - Prepare PhD students to do research in molecular biology by helping them think molecularly and by introducing tools to study binding interactions.
 - This will be achieved by:
@@ -85,10 +85,3 @@ By the end of the course, students should be able to:
   - Reason about the effects of mutations on molecular structure.
   - Have a working understanding of a collection of methods used to probe molecular mechanisms, with an emphasis on those used for binding interactions.
 
-----
-
-### Physiological Biochemistry (CH360)
-
-[Material](https://github.com/harmsm/physiological-biochem)
-
-This course is under development.

@@ -1,12 +1,11 @@
-
-#Lab Notebooks
+# Lab Notebooks
 
 Scientific results cannot be built on memories; they are built on documented, reproducible protocols and measurements.  The primary goal of your lab notebook is to document what you did, in detail sufficient to understand and reproduce your results.  It should be a *narrative* that describes what you did, why you did it, your actual results, and how you interpret them.
 
 - If you didn’t document it, it didn’t happen.
 - In two years, you’ll wish you had written more down.
 
-####Guidelines:
+#### Guidelines:
 
 - Legible, in pen.  You can either use a normal lab notebook or build a loose-leaf notebook in a binder.
 - Enter information **directly** into the notebook [no paper towels :)].
