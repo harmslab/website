@@ -37,8 +37,7 @@ Leadership positions in science and at the University of Oregon are dominated by
 #### In my lab
 
 + _I will encourage my students to participate in efforts to promote equity and inclusion in the sciences._ This includes, but is not limited to, encouraging them to join UO organizations such as [UOWGS](https://blogs.uoregon.edu/uowgs/) and [CMIS](https://pages.uoregon.edu/cmis/index.html); supporting their participation in Departmental committees like [CBGReAT](https://blogs.uoregon.edu/cbgreat/) and the Diversity, Equity, and Inclusion Committee; funding travel to meetings and workshops devoted to improved equity and inclusion (e.g. [SACNAS](https://www.sacnas.org/what-we-do/conference/), [GRC Power Hour](https://www.grc.org/the-power-hour/)); and inviting students to participate in outreach activities such as [Skype a Scientist](https://www.skypeascientist.com/) and [SPICE](https://www.spicescience.org/).
-+ _I will make continuing education about racial and other inequities a priority._  We will do so through a quarterly lab meeting devoted to equity and inclusion.  I will also continue to educate myself.  (Two excellent sets of resources are [here](https://www.nature.com/collections/qsgnpdtgbr
-) and [here](https://www.bhallalab.com/equity-reading-list).)
++ _I will make continuing education about racial and other inequities a priority._  We will do so through a quarterly lab meeting devoted to equity and inclusion.  I will also continue to educate myself.  (Two excellent sets of resources are [here](https://www.nature.com/collections/qsgnpdtgbr) and [here](https://www.bhallalab.com/equity-reading-list).)
 + _I will continue my efforts to recruit excellent, diverse undergraduate and graduate students in my lab._
 + _I commit to promoting a culture of inclusivity in the lab._  This involves communicating that inclusivity is a priority, keeping my door open for conversation, and being willing to accept feedback and criticism from lab members in this area.  This means being intentional about seeking out input and ideas from lab members.
 + _I commit to keeping my door open, listening, and to being an ally/advocate._
@@ -54,7 +53,7 @@ I have three main goals:
 + Increase the diversity of our faculty.
 + Make the overall environment of the Department and Institute more inclusive and welcoming.  
 
-<br/>I will:
+<br>I will:
 
 + _As chair of the PhD admissions committee, I will strive to recruit talented and diverse PhD students._  This includes targeted outreach to diverse students: recruiting at meetings such as [NOBCChE](https://www.nobcche.org/conference) and [SACNAS](https://www.sacnas.org/what-we-do/conference/), having faculty give seminars at majority non-white undergraduate universities, and leveraging financial resources at the UO specifically targeted to support non-majority students.  This also includes removing barriers to non-majority students: employing strategies to counter implicit bias when screening applications and dropping unfair admissions requirements ([such as the GRE](https://smallpondscience.com/2019/03/08/what-are-the-reasons-we-have-for-dropping-the-gre/)).  
 + _As a member of the Graduate Education Committee, I will work with PhD students to improve the climate and inclusivity of the Chemistry & Biochemistry Department._  The core mandate of this committee is to listen to students (via the [CBGReAT](https://blogs.uoregon.edu/cbgreat/) student organization) and then pass their thoughts on to the faculty. In my experience, students are much more sensitive to issues of inclusivity than faculty: I commit to listening and engaging with these students.
