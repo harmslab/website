@@ -124,7 +124,7 @@ def to_projects(df,col_per_row=4):
 def to_people(df,col_per_row=6):
     """
     Generate html holding lab members given an input data frame with
-    name, title, description, img, github, twitter, email, website,
+    name, title, description, img, github, mastadon, twitter, email, website,
     and linkedin for each user.
     """
 
@@ -150,7 +150,7 @@ def to_people(df,col_per_row=6):
 
 
         links = []
-        for possible in ["github","twitter","email","website","linkedin"]:
+        for possible in ["github","mastadon","twitter","email","website","linkedin"]:
 
             try:
                 if np.isnan(row[possible]):
