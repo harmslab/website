@@ -381,8 +381,10 @@ def parse_markdown(md_file):
         out.append(section)
         out.append("</div></div><br/>")
 
+    out = "".join(out)
+    out = re.sub("<p>&lt;br&gt;</p>","<br/>",out)
 
-    return "".join(out)
+    return out
 
 
 def generate_index(page_file,template_file):
